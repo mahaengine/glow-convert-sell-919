@@ -38,10 +38,10 @@ const Navbar = () => {
         
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center space-x-8">
-          <a href="#home" className="text-convrt-dark-blue/80 hover:text-convrt-dark-blue font-medium transition-colors">
+          <a href="/" className="text-convrt-dark-blue/80 hover:text-convrt-dark-blue font-medium transition-colors">
             Home
           </a>
-          <a href="#features" className="text-convrt-dark-blue/80 hover:text-convrt-dark-blue font-medium transition-colors">
+          <a href="/features" className="text-convrt-dark-blue/80 hover:text-convrt-dark-blue font-medium transition-colors">
             Features
           </a>
           <a href="#faq" className="text-convrt-dark-blue/80 hover:text-convrt-dark-blue font-medium transition-colors">
@@ -69,14 +69,14 @@ const Navbar = () => {
         <div className="md:hidden absolute top-full left-0 right-0 bg-white shadow-lg py-4 px-6">
           <div className="flex flex-col space-y-4">
             <a 
-              href="#home" 
+              href="/" 
               className="text-convrt-dark-blue/80 hover:text-convrt-dark-blue font-medium transition-colors"
               onClick={() => setIsMobileMenuOpen(false)}
             >
               Home
             </a>
             <a 
-              href="#features" 
+              href="/features" 
               className="text-convrt-dark-blue/80 hover:text-convrt-dark-blue font-medium transition-colors"
               onClick={() => setIsMobileMenuOpen(false)}
             >
