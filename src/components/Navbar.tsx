@@ -38,17 +38,17 @@ const Navbar = () => {
         
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center space-x-8">
-          <a href="#how-it-works" className="text-convrt-dark-blue/80 hover:text-convrt-dark-blue font-medium transition-colors">
-            How It Works
+          <a href="#home" className="text-convrt-dark-blue/80 hover:text-convrt-dark-blue font-medium transition-colors">
+            Home
           </a>
-          <a href="#testimonials" className="text-convrt-dark-blue/80 hover:text-convrt-dark-blue font-medium transition-colors">
-            Case Studies
+          <a href="#features" className="text-convrt-dark-blue/80 hover:text-convrt-dark-blue font-medium transition-colors">
+            Features
           </a>
-          <a href="#product" className="text-convrt-dark-blue/80 hover:text-convrt-dark-blue font-medium transition-colors">
-            Product
+          <a href="#faq" className="text-convrt-dark-blue/80 hover:text-convrt-dark-blue font-medium transition-colors">
+            FAQ
           </a>
-          <a href="#pricing" className="text-convrt-dark-blue/80 hover:text-convrt-dark-blue font-medium transition-colors">
-            Pricing
+          <a href="#contact" className="text-convrt-dark-blue/80 hover:text-convrt-dark-blue font-medium transition-colors">
+            Contact Us
           </a>
           <a href="#cta" className="button-primary">
             Get Started
@@ -69,32 +69,32 @@ const Navbar = () => {
         <div className="md:hidden absolute top-full left-0 right-0 bg-white shadow-lg py-4 px-6">
           <div className="flex flex-col space-y-4">
             <a 
-              href="#how-it-works" 
+              href="#home" 
               className="text-convrt-dark-blue/80 hover:text-convrt-dark-blue font-medium transition-colors"
               onClick={() => setIsMobileMenuOpen(false)}
             >
-              How It Works
+              Home
             </a>
             <a 
-              href="#testimonials" 
+              href="#features" 
               className="text-convrt-dark-blue/80 hover:text-convrt-dark-blue font-medium transition-colors"
               onClick={() => setIsMobileMenuOpen(false)}
             >
-              Case Studies
+              Features
             </a>
             <a 
-              href="#product" 
+              href="#faq" 
               className="text-convrt-dark-blue/80 hover:text-convrt-dark-blue font-medium transition-colors"
               onClick={() => setIsMobileMenuOpen(false)}
             >
-              Product
+              FAQ
             </a>
             <a 
-              href="#pricing" 
+              href="#contact" 
               className="text-convrt-dark-blue/80 hover:text-convrt-dark-blue font-medium transition-colors"
               onClick={() => setIsMobileMenuOpen(false)}
             >
-              Pricing
+              Contact Us
             </a>
             <a 
               href="#cta" 
