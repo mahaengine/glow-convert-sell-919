@@ -4,6 +4,7 @@ import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
 import ProblemStatement from '@/components/ProblemStatement';
 import HowItWorks from '@/components/HowItWorks';
+import AutoPlayCarousel from '@/components/AutoPlayCarousel';
 import Testimonials from '@/components/Testimonials';
 import { motion } from 'framer-motion';
 import { ArrowRight, Check, Sparkles } from 'lucide-react';
@@ -42,6 +43,21 @@ const Index = () => {
         <Hero />
         <ProblemStatement />
         <HowItWorks />
+        
+        <section className="py-16 px-6 bg-gray-50">
+          <div className="container mx-auto max-w-6xl">
+            <div className="text-center mb-12">
+              <h2 className="text-3xl md:text-4xl font-bold text-convrt-dark-blue mb-4">
+                Experience the Journey
+              </h2>
+              <p className="text-lg text-convrt-dark-blue/80">
+                Discover breathtaking moments that inspire and captivate
+              </p>
+            </div>
+            <AutoPlayCarousel />
+          </div>
+        </section>
+        
         <Testimonials />
         
         <section className="py-16 px-6" id="cta">
