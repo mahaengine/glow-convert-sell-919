@@ -6,6 +6,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Button } from "@/components/ui/button";
 import { MapPin, Phone, Mail, Clock, Globe } from "lucide-react";
+import Navbar from "@/components/Navbar";
 
 const ContactUs = () => {
   const mapContainer = useRef<HTMLDivElement>(null);
@@ -43,7 +44,9 @@ const ContactUs = () => {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-background to-secondary/20">
+    <>
+      <Navbar />
+      <div className="min-h-screen bg-gradient-to-b from-background to-secondary/20">
       {/* Hero Section */}
       <section className="py-20 px-4">
         <div className="container mx-auto text-center">
@@ -204,6 +207,7 @@ const ContactUs = () => {
         </div>
       </section>
     </div>
+    </>
   );
 };
 
