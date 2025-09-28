@@ -47,7 +47,7 @@ const Navbar = () => {
           <a href="/faq" className="text-convrt-dark-blue/80 hover:text-convrt-dark-blue font-medium transition-colors">
             FAQ
           </a>
-          <a href="#contact" className="text-convrt-dark-blue/80 hover:text-convrt-dark-blue font-medium transition-colors">
+          <a href="/contact" className="text-convrt-dark-blue/80 hover:text-convrt-dark-blue font-medium transition-colors">
             Contact Us
           </a>
           <a href="#cta" className="button-primary">
@@ -90,7 +90,7 @@ const Navbar = () => {
               FAQ
             </a>
             <a 
-              href="#contact" 
+              href="/contact" 
               className="text-convrt-dark-blue/80 hover:text-convrt-dark-blue font-medium transition-colors"
               onClick={() => setIsMobileMenuOpen(false)}
             >
