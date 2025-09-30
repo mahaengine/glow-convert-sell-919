@@ -33,28 +33,8 @@ const FAQ = () => {
       answer: "Absolutely. We use enterprise-grade security with end-to-end encryption, SOC 2 compliance, and GDPR compliance. Your data is never shared with third parties and is stored securely with regular security audits and monitoring."
     },
     {
-      question: "What kind of results can I expect?",
-      answer: "Our users typically see 15x higher response rates compared to traditional cold outreach, with 3-5x improvement in meeting booking rates. Results vary by industry and implementation, but most users see significant improvements within the first 30 days."
-    },
-    {
       question: "Do you offer a free trial?",
       answer: "Yes! We offer a 14-day free trial with full access to all features. No credit card required to start. You can test the platform with up to 100 prospects and see the results for yourself."
-    },
-    {
-      question: "How much does the platform cost?",
-      answer: "We offer flexible pricing plans starting at $49/month for individual users, with team and enterprise plans available. All plans include our core AI features, with higher tiers offering advanced analytics and priority support."
-    },
-    {
-      question: "Can I cancel my subscription anytime?",
-      answer: "Yes, you can cancel your subscription at any time with no cancellation fees. Your account will remain active until the end of your current billing period, and you can export your data before cancellation."
-    },
-    {
-      question: "What support options are available?",
-      answer: "We provide 24/7 email support, live chat during business hours, comprehensive documentation, video tutorials, and weekly group training sessions. Enterprise customers also get dedicated account management and phone support."
-    },
-    {
-      question: "How does the AI personalization work?",
-      answer: "Our AI analyzes publicly available social media data, mutual connections, shared interests, recent activity, and company news to create highly personalized outreach messages. The AI learns from successful interactions to continuously improve personalization quality."
     }
   ];
 

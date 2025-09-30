@@ -67,7 +67,7 @@ const Testimonials = () => {
           viewport={{ once: true }}
           className="mb-8 text-center"
         >
-          <h2 className="text-3xl font-bold mb-6">Trusted by industry leaders</h2>
+          <h2 className="text-3xl font-bold mb-6">Frequently Asked Questions</h2>
         </motion.div>
 
         <div className="grid grid-cols-12 gap-4">
